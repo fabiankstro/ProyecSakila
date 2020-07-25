@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubosakila", "Cubosakila\Cubosakila.dwproj", "{DF894E51-2585-4329-959A-40FA1AD21C2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF894E51-2585-4329-959A-40FA1AD21C2E}.Development|Default.ActiveCfg = Development
+		{DF894E51-2585-4329-959A-40FA1AD21C2E}.Development|Default.Build.0 = Development
+		{DF894E51-2585-4329-959A-40FA1AD21C2E}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A680E8B4-63C8-4F39-AA22-AC47E3BB3E4C}
+	EndGlobalSection
+EndGlobal
