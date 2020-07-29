@@ -1,0 +1,29 @@
+Se realiza insert en las tablas Dimcostumer
+
+use [DW_SAKILA]
+if OBJECT_ID('DimCostumers','U')is not null
+       drop table DimCustomer;
+	   use sakila;
+select customer_id, store_id, first_name, active,  email
+into  DW_SAKILA.dbo.DimCustomer
+from Customer b
+Sakila-insert-Dimstore
+
+use [DW_SAKILA]
+if OBJECT_ID('DimStore','U')is not null
+       drop table Dimstore;
+	   use sakila;
+select  store_id,manager_staff_id,address_id, last_update
+into  DW_SAKILA.dbo.DimStore
+from store b
+
+Detailspayment
+use [DW_SAKILA]
+if OBJECT_ID('DimStore','U')is not null
+       drop table Dimstore;
+	   use sakila;
+SELECT TOP (1000) [payment_id  ,[customer_id   ,[staff_id  ,[rental_id]
+      ,[amount]                 ,[payment_date] ,[last_update] ,[amountPct]
+      ,[amountPctStr            ,[TotalDiscount],[HelloWorld]
+  into [DW_SAKILA].[dbo].[DETAILSPAYMENT]
+  from payment b
