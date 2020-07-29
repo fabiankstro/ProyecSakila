@@ -6,10 +6,63 @@
     <Name>Cubosakila.database</Name>
     <FullPath>Cubosakila.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>DW SAKILA.cube</Name>
+      <FullPath>DW SAKILA.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DW SAKILA.partitions</Name>
+          <FullPath>DW SAKILA.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>DETAILSPAYMENT.dim</Name>
+      <FullPath>DETAILSPAYMENT.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Store.dim</Name>
+      <FullPath>Dim Store.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DW SAKILA.ds</Name>
+      <FullPath>DW SAKILA.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DW SAKILA.dsv</Name>
+      <FullPath>DW SAKILA.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DW SAKILA</Id>
+            <Name>DW SAKILA</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=(local);Integrated Security=SSPI;Initial Catalog=DW_SAKILA</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DW SAKILA</Id>
+            <Name>DW SAKILA</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
