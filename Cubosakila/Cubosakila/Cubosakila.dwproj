@@ -20,12 +20,8 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>DETAILSPAYMENT.dim</Name>
-      <FullPath>DETAILSPAYMENT.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Store.dim</Name>
-      <FullPath>Dim Store.dim</FullPath>
+      <Name>Dim Rental.dim</Name>
+      <FullPath>Dim Rental.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Customer.dim</Name>
@@ -52,14 +48,14 @@
           <ConfigurationSetting>
             <Id>DW SAKILA</Id>
             <Name>DW SAKILA</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=(local);Integrated Security=SSPI;Initial Catalog=DW_SAKILA</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=(local);Password=;User ID=;Initial Catalog=DW_SAKILA</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>DW SAKILA</Id>
             <Name>DW SAKILA</Name>
-            <Value xsi:type="xsd:int">0</Value>
+            <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>

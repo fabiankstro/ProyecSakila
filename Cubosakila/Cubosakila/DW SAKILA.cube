@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="532f3ff3-caf4-4c0e-bfb1-a831e75b2887" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7e72a7e0-ec2d-4fbd-8abf-e6f47d57a9ff" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DW SAKILA</ID>
   <Name>DW SAKILA</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,43 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5714" scrolltop="-6826" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20913" y="17124" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimRental" left="6020" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimRental" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCustomer" left="20" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCustomer" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +58,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-5714</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-6826</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -43,113 +80,109 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="8f89b0ff-431b-42de-9cb6-7995720cf405">
-      <ID>DETAILSPAYMENT</ID>
-      <Name>DETAILSPAYMENT</Name>
-      <DimensionID>DETAILSPAYMENT</DimensionID>
+    <Dimension dwd:design-time-name="27d38178-d66a-499c-a6ff-698166586d87">
+      <ID>Dim Rental</ID>
+      <Name>Dim Rental</Name>
+      <DimensionID>Dim Rental</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="701da0ca-c6ff-4bb7-b559-3fe7c7268f97">
+        <Attribute dwd:design-time-name="7f21d028-9d8a-465e-83ec-6e01d67fd3b7">
+          <AttributeID>Rental Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b61a2d84-a67e-4b04-8acc-2ece3fc3f645">
+          <AttributeID>Rental Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e2bbddfe-cba4-4767-bf8d-b807809da262">
+          <AttributeID>Inventory Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e288636-4a3e-4a3e-be78-a226cb2e1d71">
           <AttributeID>Customer Id</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="6693ca00-97f2-431c-a718-0eb4d881766f">
+          <AttributeID>Return Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aee86706-49ff-474f-9eff-4e2d5426f9ba">
+          <AttributeID>Last Update</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="795b556a-89ef-41ac-8c68-dae030456b16">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="781ba04e-b7c4-4f64-b2b9-c00ee36df310">
+    <Dimension dwd:design-time-name="be642153-4fe0-43da-be7f-2066e968a3bc">
       <ID>Dim Customer</ID>
       <Name>Dim Customer</Name>
       <DimensionID>Dim Customer</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7200857c-1bcd-4f0d-82ee-a1f84700b10c">
+        <Attribute dwd:design-time-name="deb2a7d0-214b-44ad-9f06-add170c6b9f6">
           <AttributeID>Store Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bf51a410-725f-410b-8628-0cc4939f9e54">
-          <AttributeID>Customer Id</AttributeID>
+        <Attribute dwd:design-time-name="eaabb4cc-3b5b-4574-9a61-3f5cbe679905">
+          <AttributeID>Store Id 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="563e0fab-4096-4216-9a43-52fab433b609">
+          <AttributeID>Active</AttributeID>
         </Attribute>
       </Attributes>
-    </Dimension>
-    <Dimension dwd:design-time-name="a3db6c2a-e7be-4afb-ab1d-a3cd41c9e196">
-      <ID>Dim Store</ID>
-      <Name>Dim Store</Name>
-      <DimensionID>Dim Store</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="7a910610-7b9e-44ff-9cd4-c70abb67b47e">
-          <AttributeID>Store Id</AttributeID>
-        </Attribute>
-      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="096c81aa-a212-4c28-a231-83a199258548">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="b6f9fc53-8d87-4c49-b608-44953d0c0355">
-      <ID>DETAILSPAYMENT</ID>
-      <Name>DETAILSPAYMENT</Name>
+    <MeasureGroup dwd:design-time-name="ef00d44f-164c-4a56-bbf9-ad5629212108">
+      <ID>Dim Rental</ID>
+      <Name>Dim Rental</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="5d7e69eb-9c4c-4d57-935d-e013ee8b804d">
-          <ID>Payment Id</ID>
-          <Name>Payment Id</Name>
-          <Source dwd:design-time-name="22adf958-e2a3-47bf-8863-961d4782435a">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="57ae0607-4178-45ea-9e5f-2d77c6c3d6df">
-              <TableID>dbo_DETAILSPAYMENT</TableID>
-              <ColumnID>payment_id</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="c139f3de-ae26-4c29-9dda-d3250375d311">
+        <Measure dwd:design-time-name="4642024b-033e-49c4-a96e-6224add3e394">
           <ID>Rental Id</ID>
           <Name>Rental Id</Name>
-          <Source dwd:design-time-name="ad902ed1-1b0c-4902-ad0e-e786dbf3ba0c">
+          <Source dwd:design-time-name="b8112f5d-aab1-4bb7-8b27-45077e8f6f8f">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="186d81fe-b30a-45c9-ab86-ac9bbec1e588">
-              <TableID>dbo_DETAILSPAYMENT</TableID>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="23eaf82d-2026-40b0-bff8-c83305acbc78">
+              <TableID>dbo_DimRental</TableID>
               <ColumnID>rental_id</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c622206b-0a4c-4f8e-8d75-ad3f503da3b2">
-          <ID>Amount</ID>
-          <Name>Amount</Name>
-          <Source dwd:design-time-name="d09160b3-f8cf-4c39-b44d-1145713e6665">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8110cf37-3733-4b16-94d5-e832526c4f88">
-              <TableID>dbo_DETAILSPAYMENT</TableID>
-              <ColumnID>amount</ColumnID>
+        <Measure dwd:design-time-name="6e06ad7c-769d-4368-82da-d5642cc0e93c">
+          <ID>Inventory Id</ID>
+          <Name>Inventory Id</Name>
+          <Source dwd:design-time-name="4d203d26-8627-4a79-9cc5-d0e33db699e3">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e6cfc3cc-c162-483f-b322-cf3b94eafb8a">
+              <TableID>dbo_DimRental</TableID>
+              <ColumnID>inventory_id</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b86aab00-f81d-43d5-9785-28fe12a877d7">
-          <ID>Amount Pct</ID>
-          <Name>Amount Pct</Name>
-          <Source dwd:design-time-name="de1e15b6-4832-4438-a088-5728962f1576">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="e5c28f17-f18c-44ea-992d-7a26051fff99">
-              <TableID>dbo_DETAILSPAYMENT</TableID>
-              <ColumnID>amountPct</ColumnID>
+        <Measure dwd:design-time-name="54c6ebac-4424-446e-afcf-86cb5742aebe">
+          <ID>Customer Id</ID>
+          <Name>Customer Id</Name>
+          <Source dwd:design-time-name="c97e4cbc-f17d-47ea-801f-3a318078689d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="50a29070-7733-4884-8895-0a8ba177e0fc">
+              <TableID>dbo_DimRental</TableID>
+              <ColumnID>customer_id</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="0cc679eb-207a-4181-a95f-d9b20b49daad">
-          <ID>Total Discount</ID>
-          <Name>Total Discount</Name>
-          <Source dwd:design-time-name="69bec683-e193-4a15-9ad5-caf847ed417f">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="45e85c68-f9b0-426b-814c-430bbda62c2b">
-              <TableID>dbo_DETAILSPAYMENT</TableID>
-              <ColumnID>TotalDiscount</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="53cf0cd6-f32b-4257-bf4b-540563aca439">
-          <ID>DETAILSPAYMENT Count</ID>
-          <Name>DETAILSPAYMENT Count</Name>
+        <Measure dwd:design-time-name="be81481f-59a4-4e83-b4c8-94c9a1f82286">
+          <ID>Dim Rental Count</ID>
+          <Name>Dim Rental Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="24ff002e-5649-424c-afbe-8972ccf54956">
+          <Source dwd:design-time-name="e5d41654-9580-4ed1-afe1-71ba3f3a0955">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="97549cad-5809-46bd-8a0e-6990a7930833">
-              <TableID>dbo_DETAILSPAYMENT</TableID>
+            <Source xsi:type="RowBinding" dwd:design-time-name="046899fb-3da3-4764-becf-669699428d12">
+              <TableID>dbo_DimRental</TableID>
             </Source>
           </Source>
         </Measure>
@@ -157,17 +190,31 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="92fe0939-756e-4e75-8014-87bc1af1c4af">
-          <CubeDimensionID>DETAILSPAYMENT</CubeDimensionID>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d6f382f2-b532-4b55-a6a7-96e8468f6673">
+          <CubeDimensionID>Dim Rental</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="68b245a2-589c-4444-8794-c3d3f27f71be">
-              <AttributeID>Customer Id</AttributeID>
+            <Attribute dwd:design-time-name="71b51dae-5c05-4ee0-a536-f52b952615a3">
+              <AttributeID>Rental Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6708e9ab-c965-46ce-8f64-ef6376f0461f">
+                <KeyColumn dwd:design-time-name="c7ad5d75-5d38-4000-b07c-3b56839c7b70">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="88acb68e-d56f-4c4d-a6cd-47bc7e1f7c29">
-                    <TableID>dbo_DETAILSPAYMENT</TableID>
-                    <ColumnID>customer_id</ColumnID>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="510164e1-5370-49f9-be8c-20714be4f071">
+                    <TableID>dbo_DimRental</TableID>
+                    <ColumnID>rental_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="942c0c28-f5bb-4371-81f4-9402663fc6ce">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b6b264e9-1d4d-4dfa-b5ab-88ba0cb9e590">
+                    <TableID>dbo_DimRental</TableID>
+                    <ColumnID>rental_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="8c973fd7-5b03-4c14-acaa-d2a667cfaa63">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d33401cf-aa8c-4892-9217-177a3daa92e8">
+                    <TableID>dbo_DimRental</TableID>
+                    <ColumnID>inventory_id</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -178,7 +225,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="816941d1-7592-41a6-9523-8cf33d001fb0">
+    <MeasureGroup dwd:design-time-name="e4fae355-3bca-488e-b390-ceb248a37d2a">
       <ID>Dim Customer</ID>
       <Name>Dim Customer</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -186,14 +233,36 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="439e3b2d-b37e-4fb3-b6ad-dbe2c4c69183">
+        <Measure dwd:design-time-name="e8e89298-0b96-4f6c-827d-960889f8bf14">
+          <ID>Customer Id - Dim Customer</ID>
+          <Name>Customer Id - Dim Customer</Name>
+          <Source dwd:design-time-name="b24855e6-4151-4e31-af3b-d86005493121">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="89d29ecb-f2cb-4b71-80ab-0409b21f0ac4">
+              <TableID>dbo_DimCustomer</TableID>
+              <ColumnID>customer_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b7bf614e-e970-456a-9627-5494f0f635b2">
+          <ID>Store Id</ID>
+          <Name>Store Id</Name>
+          <Source dwd:design-time-name="1acd5180-3ab3-4826-b16d-208da4c358ce">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="af871b6a-6014-42d0-9e4a-e5a5cf540441">
+              <TableID>dbo_DimCustomer</TableID>
+              <ColumnID>store_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c0bd925e-392c-4e66-8783-edff11038bfe">
           <ID>Dim Customer Count</ID>
           <Name>Dim Customer Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="364bcb2e-8fa2-4e80-aa7b-87285dd8f155">
+          <Source dwd:design-time-name="8c91e7a6-9474-4b39-84ca-5f870d1eb2df">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="c07aeaf8-6e67-4188-9ced-20e14b932b34">
+            <Source xsi:type="RowBinding" dwd:design-time-name="32a9bfbe-f2e2-4a0e-a13e-c79e39d54b42">
               <TableID>dbo_DimCustomer</TableID>
             </Source>
           </Source>
@@ -202,53 +271,25 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="7dc52e53-7992-4194-9df3-1b12e71c8d75">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="160bbd26-b102-493b-ad94-af2f4715593e">
           <CubeDimensionID>Dim Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="22ac8d55-a3f9-48d3-99b3-90e60d94fa26">
+            <Attribute dwd:design-time-name="56f53490-4450-43ca-9ef5-1962d80f6b6f">
               <AttributeID>Store Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7ea5dd4a-240e-47ea-8e3a-729e15255a6f">
+                <KeyColumn dwd:design-time-name="e8d63496-3574-4b3c-a543-db6c7f1460eb">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f7c5f264-423b-4d5b-b422-97b1920c5e9a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7e5288bd-4114-4b4d-987e-a8791921274a">
                     <TableID>dbo_DimCustomer</TableID>
                     <ColumnID>store_id</ColumnID>
                   </Source>
                 </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d2f5af27-1e14-4836-8361-a3af123c67f7">
-          <CubeDimensionID>Dim Store</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="a4004061-d38c-43df-bd3a-4176aa2e1a79">
-              <AttributeID>Store Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="72d9aa01-fbf0-42c8-9ef0-cc3975362216">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4dfdb3f6-b4e0-40bd-9615-dc03e626071d">
+                <KeyColumn dwd:design-time-name="ab7e600c-eae0-44d1-85d0-3d0dbb2527c5">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2400fcb1-a54d-46b9-bb57-7458149e020c">
                     <TableID>dbo_DimCustomer</TableID>
-                    <ColumnID>store_id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7ef1e2d7-d867-4bdd-9be3-23af21700b17">
-          <CubeDimensionID>DETAILSPAYMENT</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="9c739bad-c861-4aca-b77a-19080bbb3939">
-              <AttributeID>Customer Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="0aae7f9e-4262-4408-bbb1-efc0b37b798c">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ca7cfa2b-0364-48e9-b503-537558e7d88c">
-                    <TableID>dbo_DimCustomer</TableID>
-                    <ColumnID>customer_id</ColumnID>
+                    <ColumnID>active</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -260,7 +301,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="7a16bc4d-d2dd-43f5-9ceb-7ddb7440c1ec">
+  <Source dwd:design-time-name="c73d58cb-1656-4f97-a46b-21cbb86e3d2d">
     <DataSourceViewID>DW SAKILA</DataSourceViewID>
   </Source>
 </Cube>
